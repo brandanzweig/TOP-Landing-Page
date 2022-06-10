@@ -22,6 +22,7 @@ a {
   font-size: 18px;
   color: white;
   text-decoration: none;
+  padding: 18px;
 }
 
 
@@ -34,7 +35,6 @@ a {
 .header-links {
     color: #E5E7EB;
     font-size: 18px;
-    padding: 18px;
 }
 
 .Section1-primary-text {
@@ -71,6 +71,7 @@ ul {
 .Section2-container {
   display: flex;
   justify-content: center;
+  align-content: center;
   gap: 52px;
 }
 
@@ -82,20 +83,63 @@ ul {
     align-items: center;
 }
 
+.box {
+  border: 1px solid blue;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+  padding: 32px;
+  margin: 16px;
+}
+
 .Section3 {
     background-color: #E5E7EB;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+}
+
+.Section3-margin { 
 }
 
 .Section3-quote-text {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    max-width: 770px;
-    margin: 50px;
+    display: flex;
+    max-width: 750px;
+    margin-top: 50px;
+    
 }
+
+.Section3-quote-author {
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+
+.blue-box {
+    display: flex;
+    justify-content: space-around;
+    padding: 32px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #3882F6;
+    font-size: 25px;
+    color: white;
+}
+
+button {
+    padding: 5px 30px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
 
 .footer {
     background-color: #1F2937;
